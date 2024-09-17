@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "arctic-column-432314-p8",
+  "private_key_id": "05be930653d73dd9e2f1e41acf044f01c2a3103e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCXEovv1dR7G1YQ\nSAOnmspf4eRAOS5TQx3oqYIv7pDyB7oZQn+s54K/g5ndnJd3wQf0RWqQeeftuyFb\ntYCvBX69NxxVkytLkUKfRGvZMNwJZfqyBoYfbyE7kog/rs78/AhcIROEYSG8aEKo\n//uOFieVIRJ6Pb42LtXQ8iukq+8xbA2mHuGGj+8UxV83N5cR6s1OpEj7yeN76Vi9\nEY2m8at0NvQUPerIgaU4hUDCZwf1hR37M1SZT6SmlJh6u6iV9PRA8gy2n0r+uSZd\nK19sZn4Kel6mTbH8RjbpK44I/rNaBfj27cSaveMxuT8r/wLUEynYrcRs4YJDUToS\nXZgKkKtRAgMBAAECggEABAHFrOeQwnAj7Pwf/rDMF9VzuqFZoXM5BpwCXDeZaBX8\n4WEiZklgrig1K0vVN6OqzJePv0PAe014kchjYKEGbsnYqktkPVWdvQAxVRom5+fo\nyZKDOa+2o7AcBYZjLpIXvavR6vOxk5/3Tqi1eRwM0jeFmDDti93bpXZa4nv99ONU\nlkXFSB3CjSkqt4VQej2e00QqaOetvlTBUqRoGSQJMcxntNOo+I3cK45b/eEUcDnn\n4DEi8tl8SH+H17mINx/SW6M+de3BY/y6ZN29/YTg1fzgbnXqEagDiubEoxf27mvd\nGN7xE9fRW0w8KHikubwy53HUCfsWcX/PBB+rjvJanQKBgQDT5GZLrL2zyWSQQ2F1\nLFl6L4nYZVDQ1fCNITlYQT7xvRECsYezLp91JWjT+Ud+Xnjk/YOPVETwlZNPpgjO\n8/8/7FzKBW4qtCipspoq1dW8VPdhfJLYrLN/sZB2Kljpoxcre1ZLR+ULP/fO7t/6\nTFmV0BB97UYv7bOVC7nV2IdttQKBgQC2hRoJS0DY0PX6jhCsnwupzyvdq8cksCJN\n2fXsMd/jrR5uYzXJaH9xqTdegG7C3x/xQP1AzFwp2gZ/1kzfDwxG3+PHurIzu4sX\nldF5nxcEz/P13Cz7d9crSDO81mwNekkwkGN07+TalAnnbViWtG8S2kySQzSb2TSP\n3XxfZNJorQKBgDu2oRFwc+GHvtxc8MkZn3msjfc6ziScNfc/xq5VbMypUHLm3uwj\nFnLoAPvDw18cdotp2jp5MBhwvpvymYbhAizcimWwVBSawt7X41RxAJPbif+iIKwJ\nN2ij/KcgVgA5otzxHCeI8kZSV56seNhLze9HPG6QgHgfT72QGWXnaHsFAoGBAKsM\nbewL1Efc/MjE3qeHnbyT5L4nP8gIMP3Yp/mke/e4w+4bl8qa3eS8+qDbp/GEfUDw\n8OYLHswyASlIwl3AknbRV3xUYLDOr3l49AkQqNffsvfUUWuRUdrEHYh5QmYXFgQn\nLK3oLAcT+XwjI4SIsBdw8ZWY2fK8SeARZ39W00E5AoGABXTIBMrp0B4cKh/eoSwI\n/+61Tr+P5IFyF6IXOOPNysS8F+UqdoIGUPZqnlW8TMlVMW4OO5paZpEuknxOsHMq\n8W8/PwNTgScL1cjilGNz6W2zthDRLeQuy8F3BVP6lPL9i7fvdLXlzO6n4L7+UFTw\nAvbVr8z5O1xDUofBIRh1i6s=\n-----END PRIVATE KEY-----\n",
+  "client_email": "skyvia-gbq@arctic-column-432314-p8.iam.gserviceaccount.com",
+  "client_id": "103266212845161341733",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/skyvia-gbq%40arctic-column-432314-p8.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

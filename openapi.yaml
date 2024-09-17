@@ -1,0 +1,55 @@
+swagger: '2.0'
+info:
+  title: My Public API
+  description: API Gateway for exposing Cloud Function publicly
+  version: 1.0.0
+
+host: YOUR_API_GATEWAY_HOST
+basePath: /
+schemes:
+  - https
+
+paths:
+  /receive_data:
+    post:
+      summary: Receive data and store in BigQuery
+      operationId: receiveData
+      parameters:
+        - in: body
+          name: body
+          description: A list of records to be processed
+          required: true
+          schema:
+            type: object
+            properties:
+              records:
+                type: array
+                items:
+                  $ref: '#/definitions/Record'
+            required:
+              - records
+      responses:
+        '200':
+          description: Data received and processed successfully
+        '400':
+          description: Bad request - Invalid data format or validation error
+        '500':
+          description: Internal server error - Issues with BigQuery or unexpected errors
+      security:
+        - api_key: []  # API key required for this operation
+
+definitions:
+  Record:
+    type: object
+    additionalProperties: true  # Allows any properties
+
+securityDefinitions:
+  api_key:
+    type: apiKey
+    name: x-api-key
+    in: header  # API key is expected to be sent in the request header
+
+x-google-backend:
+  address: https://us-central1-arctic-column-432314-p8.cloudfunctions.net/recieve_customer_data
+
+x-google-allow: all  # Allow all incoming requests

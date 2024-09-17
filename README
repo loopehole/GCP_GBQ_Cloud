@@ -1,0 +1,51 @@
+# Cloud Function Documentation
+
+## Overview
+
+This repository contains the code for a Google Cloud Function that processes incoming HTTP requests, parses JSON data, and inserts it into a Google BigQuery table.
+
+- **Function Name**: `function-2`
+- **Region**: `us-central1`
+- **Runtime**: Python 3.11
+- **Trigger**: HTTP
+
+## Function URL
+
+You can invoke the function using the following URL:
+
+https://us-central1-arctic-column-432314-p8.cloudfunctions.net/function-2
+
+
+## Function Code
+
+##  requirements.txt
+
+## Deployment Instructions
+
+1. Setup Google Cloud SDK:
+
+Make sure you have the Google Cloud SDK installed and authenticated:
+
+``` gcloud auth login ```
+
+2. Deploy the Function:
+
+Use the following command to deploy the function:
+
+``` gcloud functions deploy function-2 --runtime python311 --trigger-http --allow-unauthenticated ```
+
+## Usage
+
+To invoke the function, send an HTTP POST request to the function URL.
+
+## Request Body 
+
+The request body should be a JSON array of records. Each record will be appended with created_at and updated_at timestamps.
+
+## Response
+
+200 OK: Data received and processed successfully.
+400 Bad Request: Invalid data format or missing fields.
+500 Internal Server Error: Errors occurred during data insertion or unexpected issues.
+
+
